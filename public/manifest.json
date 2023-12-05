@@ -1,0 +1,19 @@
+{
+  "short_name": "Pasteleria Mayra",
+  "name": "Pasteleria Mayra",
+  "description": "Practica PWA Single Pages Pasteleria.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FF90BB",
+  "background_color": "#FF90BB",
+  "orientation": "portrait",
+  "scope": "/",
+  "splash_pages": null,
+  "icons": [
+    {
+      "src": "images/logo_pasteleria.png",
+      "type": "image/png",
+      "sizes": "800x800"
+    }
+  ]
+}
