@@ -894,7 +894,8 @@ const cambioImagen = (event) => {
                 )}
             </div>
           </div>
-          <img src={Global.IMAGES + 'publicaciones/' + publicacion.imagen_publicacion} className="card-img-top" alt={`Publicación de ${publicacion.titulo}`} />
+          <img src={Global.IMAGES + 'publicaciones/' + publicacion.imagen_publicacion} className="card-img-top" alt={`Publicación de ${publicacion.titulo}`} 
+          style={{ maxWidth: '50%', maxHeight: '500px', height: 'auto',alignSelf:'center' }}/>
           <div className="card-body">
             <p className="card-text">{publicacion.descripcion}</p>
             <Reacciones publicacion={publicacion} />
